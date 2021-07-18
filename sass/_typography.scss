@@ -1,0 +1,32 @@
+
+h2.main {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: Cabin, Helvetica, Arial, sans-serif;
+  color: $tinjan-lightest-blue;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 27px;
+  color: #62718D;
+
+  a {
+    color: $tinjan-green;
+
+    &:hover {
+      color: $tinjan-green;
+    }
+  }
+}
+
+p.lead {
+  font-family: Cabin, Helvetica, Arial, sans-serif;
+  color: $tinjan-dark-blue;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 34px;
+}

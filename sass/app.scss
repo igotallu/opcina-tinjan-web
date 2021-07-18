@@ -1,13 +1,11 @@
-// 1. Configuration and helpers
 @import "customVariables";
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
-// 2. Vendors
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
 @import "../bower_components/fontawesome/scss/fontawesome";
-@import "custom";
-// 3. Base stuff
-// 4. Layout-related sections
-// 5. Components
-// 6. Page-specific styles
+@import "typography";
+@import "components";
+@import "pages";
+@import "hover";
+@import "helpers";
 

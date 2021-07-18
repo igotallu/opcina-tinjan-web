@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a108cd6-bb2a-4727-9262-51e7a0320b82" name="Default Changelist" comment="" />
+    <list default="true" id="3a108cd6-bb2a-4727-9262-51e7a0320b82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/_pages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_components.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_customVariables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_customVariables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/app.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +22,11 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kcJaQPiZZUPghELNMCtHRTmPNF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,8 +34,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,6 +53,12 @@
       <workItem from="1608068597419" duration="1551000" />
       <workItem from="1618515447354" duration="56000" />
       <workItem from="1618516495762" duration="7526000" />
+      <workItem from="1618600832079" duration="3736000" />
+      <workItem from="1618610579691" duration="3411000" />
+      <workItem from="1621188629677" duration="353000" />
+      <workItem from="1621189670671" duration="14833000" />
+      <workItem from="1625683880889" duration="9680000" />
+      <workItem from="1626596152270" duration="28032000" />
     </task>
     <servers />
   </component>
@@ -45,13 +66,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1310" y="423" key="EditFileWatcherDialog" timestamp="1605994425969">
+    <state x="832" y="383" key="#Inspections" timestamp="1621191589703">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1310" y="423" key="EditFileWatcherDialog/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1605994425969" />
-    <state x="1175" y="293" key="SettingsEditor" timestamp="1605998373135">
+    <state x="832" y="383" key="#Inspections/0.0.2560.1400@0.0.2560.1400" timestamp="1621191589703" />
+    <state x="834" y="376" width="1059" height="715" key="SettingsEditor" timestamp="1618610965893">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1175" y="293" key="SettingsEditor/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1605998373135" />
+    <state x="834" y="376" width="1059" height="715" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1618610965893" />
   </component>
 </project>

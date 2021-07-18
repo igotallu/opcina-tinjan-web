@@ -1,0 +1,171 @@
+/* custom stylesheet for this project pages */
+
+/* Homepage */
+
+.homepage-selector {
+  background-color: $tinjan-green;
+  color: $tinjan-dark-blue;
+
+  .selector-panel {
+    position: relative;
+    top: -100px;
+
+    h3 {
+      position: relative;
+      top: 45px;
+    }
+  }
+
+  h3 {
+    color: #fff;
+  }
+
+  .selector-item {
+    height: 200px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+    text-align: center;
+
+    &:hover {
+      background: lighten($tinjan-green, 45%);
+    }
+
+    img {
+      margin-bottom: 20px;
+    }
+
+    a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+/* News & announcements */
+
+.latest-news {
+  background-color: $tinjan-light-brown;
+  padding: 60px 0;
+}
+
+.latest-announcements {
+  padding: 60px 0;
+}
+
+.news-hub {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+/* Promo block */
+
+.promo-isap {
+  padding: 100px 0;
+  background-image: url("/assets/images/isap_promo_background.jpg");
+  background-size: cover;
+
+  h2 {
+    color: #fff;
+    margin-top: 15px;
+
+    @media only screen and (max-width : 768px) {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  }
+}
+
+/* Single pages */
+
+.content-main {
+  border-bottom: 1px solid darken($tinjan-light-brown, 3%);
+}
+
+.single {
+  img {
+    margin-bottom: 34px;
+    width: 100%;
+  }
+
+  h4.news-info {
+    margin-bottom: 40px;
+
+    &:before {
+      content: "";
+      display: inline-block;
+      background: url("/assets/icons/calendar-icon.svg") no-repeat;
+      width: 36px;
+      height: 30px;
+      position: relative;
+      top: 12px;
+    }
+
+    a {
+      color: $tinjan-green;
+    }
+  }
+}
+
+.single-sidebar {
+  padding-top: 80px;
+
+  @media (max-width: 991px) {
+    display: none;
+  }
+
+  h4 {
+    color: $tinjan-green;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  ul.related {
+    padding: 0 0 30px 20px;
+    border-bottom: 1px solid darken($tinjan-light-brown, 3%);
+
+    li {
+      padding: 3px 0 3px 10px;
+      a {
+        font-family: Cabin, Helvetica,Arial, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: $tinjan-dark-blue;
+
+        &:hover {
+          color: $tinjan-green;
+        }
+      }
+    }
+  }
+}
+
+ul.share {
+  padding: 30px 0 0 0;
+
+  li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+
+    a {
+      width: 36px;
+      height: 36px;
+      display: block;
+
+      &.facebook {
+        background-image: url("/assets/icons/facebook-share-icon.svg");
+      }
+      &.twitter {
+        background-image: url("/assets/icons/twitter-share-icon.svg");
+      }
+      &.share {
+        background-image: url("/assets/icons/share-icon.svg");
+      }
+
+    }
+  }
+}
