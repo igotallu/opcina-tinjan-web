@@ -65,7 +65,7 @@
 
 .promo-isap {
   padding: 100px 0;
-  background-image: url("/assets/images/isap_promo_background.jpg");
+  background-image: url("../assets/images/isap_promo_background.jpg");
   background-size: cover;
 
   h2 {
@@ -97,7 +97,7 @@
     &:before {
       content: "";
       display: inline-block;
-      background: url("/assets/icons/calendar-icon.svg") no-repeat;
+      background: url("../assets/icons/calendar-icon.svg") no-repeat;
       width: 36px;
       height: 30px;
       position: relative;
@@ -157,15 +157,39 @@ ul.share {
       display: block;
 
       &.facebook {
-        background-image: url("/assets/icons/facebook-share-icon.svg");
+        background-image: url("../assets/icons/facebook-share-icon.svg");
       }
       &.twitter {
-        background-image: url("/assets/icons/twitter-share-icon.svg");
+        background-image: url("../assets/icons/twitter-share-icon.svg");
       }
       &.share {
-        background-image: url("/assets/icons/share-icon.svg");
+        background-image: url("../assets/icons/share-icon.svg");
       }
 
+    }
+  }
+}
+
+/* Newspapers */
+
+.impressum {
+  margin-bottom: 60px;
+  background-color: $tinjan-green;
+  padding: 20px 30px;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+  h4 {
+    color: $tinjan-yellow;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    padding-left: 20px;
+    li {
+      font-size: 16px;
     }
   }
 }

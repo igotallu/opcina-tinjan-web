@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a108cd6-bb2a-4727-9262-51e7a0320b82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/_pages.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_components.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_components.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_customVariables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_customVariables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_pages.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +56,7 @@
       <workItem from="1621189670671" duration="14833000" />
       <workItem from="1625683880889" duration="9680000" />
       <workItem from="1626596152270" duration="28032000" />
+      <workItem from="1626723278865" duration="6375000" />
     </task>
     <servers />
   </component>

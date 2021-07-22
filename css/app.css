@@ -10483,7 +10483,7 @@ p.lead {
 header.homepage {
   height: 600px;
   padding-top: 120px;
-  background-image: url("/assets/images/tinjan_header_main.jpg");
+  background-image: url("../assets/images/tinjan_header_main.jpg");
   background-attachment: fixed;
   background-size: contain !important; }
   header.homepage h1 {
@@ -10563,7 +10563,7 @@ a.read-all {
   a.read-all:after {
     content: "";
     display: inline-block;
-    background: url("/assets/icons/arrow-green.svg") no-repeat;
+    background: url("../assets/icons/arrow-green.svg") no-repeat;
     width: 20px;
     height: 20px;
     position: relative;
@@ -10642,7 +10642,7 @@ a.read-all {
     .card a.read-more:after {
       content: "";
       display: inline-block;
-      background: url("/assets/icons/arrow-blue.svg") no-repeat;
+      background: url("../assets/icons/arrow-blue.svg") no-repeat;
       width: 20px;
       height: 20px;
       position: relative;
@@ -10652,7 +10652,7 @@ a.read-all {
       color: #39B872;
       text-decoration: none; }
       .card a.read-more:hover:after {
-        background: url("/assets/icons/arrow-green.svg") no-repeat; }
+        background: url("../assets/icons/arrow-green.svg") no-repeat; }
 
 /* Breadcrumb */
 .breadcrumb-row {
@@ -10713,6 +10713,58 @@ a.read-all {
     .filter {
       margin-bottom: 35px; } }
 
+/* Documents */
+.documents-header {
+  margin-bottom: 20px; }
+
+.document-box {
+  padding: 0 30px 30px 30px;
+  background-color: #F6F6F6;
+  border: 1px solid #e2e2e2;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 50px; }
+  .document-box p.date {
+    background-color: #fff;
+    display: inline-block;
+    padding: 4px 15px;
+    margin-bottom: 0px;
+    font-family: Cabin, Helvetica,Arial, sans-serif;
+    font-size: 16px;
+    color: #132244;
+    position: relative;
+    top: -18px; }
+  .document-box h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #132244; }
+  .document-box h4.category {
+    font-size: 16px;
+    font-weight: 700;
+    color: #39B872; }
+  .document-box ul {
+    padding: 0;
+    list-style: none; }
+    .document-box ul li {
+      padding: 3px 0;
+      font-weight: 700; }
+      .document-box ul li:before {
+        content: "";
+        display: inline-block;
+        background: url("../assets/icons/PDF-icon.svg") no-repeat;
+        width: 70px;
+        height: 23px;
+        position: relative;
+        top: 6px; }
+      .document-box ul li a {
+        font-size: 16px;
+        color: #132244;
+        text-decoration: underline; }
+        .document-box ul li a:hover {
+          color: #39B872; }
+
 /* custom stylesheet for this project pages */
 /* Homepage */
 .homepage-selector {
@@ -10758,7 +10810,7 @@ a.read-all {
 /* Promo block */
 .promo-isap {
   padding: 100px 0;
-  background-image: url("/assets/images/isap_promo_background.jpg");
+  background-image: url("../assets/images/isap_promo_background.jpg");
   background-size: cover; }
   .promo-isap h2 {
     color: #fff;
@@ -10780,7 +10832,7 @@ a.read-all {
   .single h4.news-info:before {
     content: "";
     display: inline-block;
-    background: url("/assets/icons/calendar-icon.svg") no-repeat;
+    background: url("../assets/icons/calendar-icon.svg") no-repeat;
     width: 36px;
     height: 30px;
     position: relative;
@@ -10821,11 +10873,28 @@ ul.share {
       height: 36px;
       display: block; }
       ul.share li a.facebook {
-        background-image: url("/assets/icons/facebook-share-icon.svg"); }
+        background-image: url("../assets/icons/facebook-share-icon.svg"); }
       ul.share li a.twitter {
-        background-image: url("/assets/icons/twitter-share-icon.svg"); }
+        background-image: url("../assets/icons/twitter-share-icon.svg"); }
       ul.share li a.share {
-        background-image: url("/assets/icons/share-icon.svg"); }
+        background-image: url("../assets/icons/share-icon.svg"); }
+
+/* Newspapers */
+.impressum {
+  margin-bottom: 60px;
+  background-color: #39B872;
+  padding: 20px 30px;
+  color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+  .impressum h4 {
+    color: #FFF76C;
+    margin-bottom: 20px; }
+  .impressum ul {
+    padding-left: 20px; }
+    .impressum ul li {
+      font-size: 16px; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)

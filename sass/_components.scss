@@ -146,7 +146,7 @@ header {
   &.homepage {
     height: 600px;
     padding-top: 120px;
-    background-image: url("/assets/images/tinjan_header_main.jpg");
+    background-image: url("../assets/images/tinjan_header_main.jpg");
     background-attachment: fixed;
     background-size: contain !important;
 
@@ -269,7 +269,7 @@ a.read-all {
   &:after {
     content: "";
     display: inline-block;
-    background: url("/assets/icons/arrow-green.svg") no-repeat;
+    background: url("../assets/icons/arrow-green.svg") no-repeat;
     width: 20px;
     height: 20px;
     position: relative;
@@ -380,7 +380,7 @@ a.read-all {
     &:after {
       content: "";
       display: inline-block;
-      background: url("/assets/icons/arrow-blue.svg") no-repeat;
+      background: url("../assets/icons/arrow-blue.svg") no-repeat;
       width: 20px;
       height: 20px;
       position: relative;
@@ -393,7 +393,7 @@ a.read-all {
       text-decoration: none;
 
       &:after {
-        background: url("/assets/icons/arrow-green.svg") no-repeat;
+        background: url("../assets/icons/arrow-green.svg") no-repeat;
       }
     }
   }
@@ -477,5 +477,76 @@ a.read-all {
 
   @media (max-width: 991px) {
     margin-bottom: 35px;
+  }
+}
+
+/* Documents */
+
+.documents-header {
+  margin-bottom: 20px;
+}
+
+.document-box {
+  padding: 0 30px 30px 30px;
+  background-color: $tinjan-light-brown;
+  border: 1px solid darken($tinjan-light-brown, 8%);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+
+  p.date {
+    background-color: #fff;
+    display: inline-block;
+    padding: 4px 15px;
+    margin-bottom: 0px;
+    font-family: Cabin, Helvetica,Arial, sans-serif;
+    font-size: 16px;
+    color: $tinjan-dark-blue;
+    position: relative;
+    top: -18px;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    color: $tinjan-dark-blue;
+  }
+
+  h4.category {
+    font-size: 16px;
+    font-weight: 700;
+    color: $tinjan-green;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+
+    li {
+      padding: 3px 0;
+      font-weight: 700;
+
+      &:before {
+        content: "";
+        display: inline-block;
+        background: url("../assets/icons/PDF-icon.svg") no-repeat;
+        width: 70px;
+        height: 23px;
+        position: relative;
+        top: 6px;
+      }
+
+      a {
+        font-size: 16px;
+        color: $tinjan-dark-blue;
+        text-decoration: underline;
+
+        &:hover {
+        color: $tinjan-green;
+        }
+      }
+    }
   }
 }
