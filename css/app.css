@@ -10352,7 +10352,7 @@ h2.main {
   font-size: 36px;
   margin-bottom: 30px; }
 
-p {
+p, ul, ol {
   font-family: Cabin, Helvetica, Arial, sans-serif;
   color: #62718D;
   font-weight: 300;
@@ -10360,9 +10360,9 @@ p {
   line-height: 27px;
   margin-bottom: 27px;
   color: #62718D; }
-  p a {
+  p a, ul a, ol a {
     color: #39B872; }
-    p a:hover {
+    p a:hover, ul a:hover, ol a:hover {
       color: #39B872; }
 
 p.lead {
@@ -10483,9 +10483,11 @@ p.lead {
 header.homepage {
   height: 600px;
   padding-top: 120px;
+  /*
   background-image: url("../assets/images/tinjan_header_main.jpg");
   background-attachment: fixed;
-  background-size: contain !important; }
+  background-size: contain !important;
+  */ }
   header.homepage h1 {
     font-family: Cabin, Helvetica,Arial, sans-serif;
     font-size: 64px;
@@ -10497,6 +10499,36 @@ header.homepage {
     margin-bottom: 40px; }
 header.homepage-isap {
   background-color: #132244; }
+
+/* Video background */
+.fullsize-video-bg {
+  height: 100%;
+  overflow: hidden;
+  background-color: #39B872 !important; }
+
+.fullsize-video-bg:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; }
+
+#video-viewport {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; }
+
+video {
+  display: block;
+  width: 100%;
+  height: auto; }
 
 /* Footer */
 footer {
@@ -10578,6 +10610,14 @@ a.read-all {
   border: none;
   border-radius: 2px;
   padding: 15px 45px 17px 45px; }
+
+.btn-secondary {
+  font-family: Cabin, Helvetica,Arial, sans-serif;
+  font-size: 20px;
+  font-weight: medium;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 35px 12px 35px; }
 
 .btn-default {
   color: #fff;
@@ -10892,9 +10932,11 @@ ul.share {
     color: #FFF76C;
     margin-bottom: 20px; }
   .impressum ul {
-    padding-left: 20px; }
+    padding-left: 20px;
+    color: #fff !important; }
     .impressum ul li {
-      font-size: 16px; }
+      font-size: 16px;
+      color: #fff !important; }
 
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)

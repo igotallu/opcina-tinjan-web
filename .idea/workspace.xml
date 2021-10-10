@@ -5,7 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_components.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_pages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_pages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-novosti.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-novosti.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +59,9 @@
       <workItem from="1625683880889" duration="9680000" />
       <workItem from="1626596152270" duration="28032000" />
       <workItem from="1626723278865" duration="6375000" />
-      <workItem from="1626971089183" duration="627000" />
+      <workItem from="1626971089183" duration="740000" />
+      <workItem from="1633860120640" duration="7631000" />
+      <workItem from="1633879296135" duration="364000" />
     </task>
     <servers />
   </component>
